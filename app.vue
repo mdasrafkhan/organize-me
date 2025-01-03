@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <h2>Connection Information</h2>
+      <h2>Your Connection Information</h2>
       <p v-if="url">URL: {{ url }}</p>
       <p v-if="browser">Browser: {{ browser }}</p>
     </div>
